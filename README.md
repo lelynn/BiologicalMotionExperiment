@@ -9,8 +9,19 @@ Lynn_BiMoExp_fun is a file that can be used in two ways:
   1. Run the file to start the experiment 
   2. Import the file into another python code to use the class methods 
     <br> (`from Lynn_BiMoExp_fun import Running_experiment`). An example run code is included in the src map, to show how you can import and use the file.
+
+
+When running the file, you must have the maps in the same directory: 
 <br>
-When running the file, you must have the maps: introduction, experiment, and experiment data in the same directory. It is important that the maps are organized in this way.
-OpenCV needs to be downloaded to run the program (`pip install cv2`). 
+  - introduction: contains all the images with text that are shown during the experiment.
+
+  - experiment: The four experiments, Dotfigure_LLQ, Dotfigure_center, Phosphenefigure_LLQ, Phosphenefigure_center.
+
+  - experiment data: the csv data file that is outputted from the experiment is automatically saved in this map. 
+<br>
+It is important that the maps are organized in this way, for the code to work.
+<br>
+OpenCV needs to be downloaded to run the program ( `pip install cv2` ). 
+
 
 
