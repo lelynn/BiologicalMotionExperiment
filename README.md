@@ -1,7 +1,11 @@
 # BiologicalMotionExperiment
 ### *Project: Biological motion for visual cortex induced phosphenes*
 
+##### Generating stimuli
 The map Figure_Generation_MATLAB contains the codes  	`DotFigureGenerator.m` and	`StickfigureGenerator.m` for the generation of videos of containing biological motion walker with various frame duration and a certain limited lifetime. This code requires you to download Psychtoolbox and Biomotion toolbox. Also the positions of the walkers can be changed by adjusting the coordinates (explained oin the file). 
+
+##### Running the experiment
+*I've included the stimuli in the experiment map, so generation of stimuli is not necessary*
 
 For running the experiment for subjects, use the code in src:
 <br>
