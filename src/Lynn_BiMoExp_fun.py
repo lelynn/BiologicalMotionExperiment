@@ -11,7 +11,7 @@ class Running_experiment():
         
 
     def __init__(self):
-        '''The class Experiment, '''
+        '''The class Running_experiment contains different methods to run the biological motion expeirment. First you want to set your experiment, the available experiments are in the doc of the set_experiment() method.   '''
         self.run_directory = '../'
         # self.set_experiment(experiment)
     
@@ -44,7 +44,7 @@ class Running_experiment():
         
         Parameters
         ----------
-        The parameter is a string representing the experiment name that will be called.
+        The parameter is a string representing the experiment name that will be called, this is already called in the set_experiment().
         
         Dotfigure_center: presents the simulation videos of the dotfigures on the center of the screen
         
